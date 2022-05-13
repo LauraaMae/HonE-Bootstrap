@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+  <!-- Header -->
+
+  <header class="bg-dark">
+
+    <div class="container">
+
+      <header class=" bg-dark text-white">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-start py-4">
+
+
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+
+
+              <li>
+                <a href="Home.html" class="nav-link text-secondary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-house-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                    <path fill-rule="evenodd"
+                      d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                  </svg>
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a href="Route.html" class="nav-link text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                  </svg>
+                  Route
+                </a>
+              </li>
+
+              <li>
+                <a href="Membership.html" class="nav-link text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-bicycle" viewBox="0 0 16 16">
+                    <path
+                      d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057 9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z" />
+                  </svg>
+                  Passes/Membership
+                </a>
+              </li>
+
+              <li>
+                <a href="Contact.html" class="nav-link text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                  </svg>
+                  Contact
+                </a>
+              </li>
+
+            </ul>
+
+
+            <div class="text-end">
+
+
+
+              <a href="Login.html" class="btn btn-outline-light me-2">Login</a>
+              <a href="Signup.html" class="btn btn-dark">Sign-up</a>
+
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+
+  </header>
+
+  <div style="width:100%;height:10px; background-color: #e1296f;"></div>
+
+  <!-- Main Body -->
+
+<body class="bg-secondary">
+
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-secondary">
+
+    <h1 class="display-1 fw-bold lh-1">Route<img src="Images/LogoP-03.png" width="150"></h1>
+
+
+    <div class="mapouter">
+      <div class="gmap_canvas"><iframe width="90%" height="80%" id="gmap_canvas"
+          src="https://maps.google.com/maps?q=bristol&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="1"
+          scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br>
+        <style>
+          .mapouter {
+            height: 500px;
+
+            width: 500px;
+          }
+
+
+          .gmap_canvas {
+            overflow: hidden;
+            position: absolute;
+            background: none !important;
+            height: 100%;
+            width: 95%;
+          }
+        </style>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+
+  <div class="align-items-center">
+
+    <div class="container my-1 ">
+      <div class="col-md-4 py-3 align-items-center">
+        <label for="Ride" class="form-label">Choose Ride</label>
+        <select class="form-select" required="">
+          <option value="">Choose...</option>
+          <option>Single Trip (£3.25)</option>
+          <option>Day Pass (£7)</option>
+          <option>3 Day Pass (£15)</option>
+          <option>Hon-E-Membership</option>
+
+
+        </select>
+        <div class="invalid-feedback">
+          Please provide a valid Ride
+        </div>
+      </div>
+
+      <div class="col-md-4 py-3 align-items-center">
+        <label for="Ride" class="form-label">Choose Pickup Location</label>
+        <select class="form-select" required="">
+          <option value="">Choose...</option>
+          <option>Brandon Hill</option>
+          <option>Cabot Circus</option>
+          <option>Castle Park</option>
+          <option>Clifton Bridge</option>
+          <option>Temple Meads</option>
+          <option>UWE Frenchay Campus</option>
+          <option>Watershed</option>
+
+        </select>
+        <div class="invalid-feedback">
+          Please provide a valid Pickup Location
+        </div>
+      </div>
+
+      <a href="Route.html" class="btn btn-lg btn-secondary fw-normal border-white bg-black">Purchase Journey</a>
+
+    </div>
+
+  </div>
+
+</body>
+
+
+<footer>
+
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="Home.html" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="Route.html" class="nav-link px-2 text-muted">Route</a></li>
+        <li class="nav-item"><a href="Membership.html" class="nav-link px-2 text-muted">Passes</a></li>
+        <li class="nav-item"><a href="Contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+        <li class="nav-item"><a href="Signup.html" class="nav-link px-2 text-muted">Signup</a></li>
+      </ul>
+      <p class="text-center text-muted">© 2022 Hon-E-Bike</p>
+    </footer>
+  </div>
+
+</footer>
+
+</html>
